@@ -88,3 +88,31 @@ footer p{
 footer button{
     text-align: center;
 }
+
+@media (max-width: 800px){
+    body{
+        background: white;
+    }
+    .myName{
+        width: 100%;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background: white;
+    }
+    .myName{
+        width: 100%;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: column;
+    }
+}
