@@ -109,15 +109,19 @@ footer button{
     .myName{
         width: 100%;
         text-align: center;
+        padding: 3%;
     }
     .navBar{
         display: flex;
         flex-direction: column;
-        box-sizing: content-box;
+        box-sizing: border-box;
+        align-items: center;
+        
     }
     .navBar a{
         display: flex;
         justify-content: center;
+        margin: 2%;
         
     }
     .navDiv{
