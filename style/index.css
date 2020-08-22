@@ -34,7 +34,7 @@ body{
 .myName{
 text-shadow: 1px 1px 1px ;
 margin: 0px;
-padding: 25px;
+/* padding: 25px; */
 font-family: 'Lobster', cursive;
 font-size: 46px;
 }
@@ -46,7 +46,7 @@ font-size: 46px;
 .bodyImgs img{
    max-width: 750px;
    max-height: 375px;
-   margin: 10px;
+   /* margin: 10px; */
 }
 .bodyImgs h3{
     margin-top: 60px;
@@ -108,15 +108,33 @@ footer button{
     }
     .myName{
         width: 100%;
+        text-align: center;
     }
     .navBar{
         display: flex;
         flex-direction: column;
+        box-sizing: content-box;
+    }
+    .navBar a{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .navDiv{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
     }
     .bodyImgs{
         display: flex;
+        flex-direction: column;
     }
-    .bodyImgsDiv{
-
+    #bodyImgsDiv{
+        display: flex;
+    }
+    #bodyImgsText{
+        display: flex;
+        
     }
 }
