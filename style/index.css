@@ -8,8 +8,8 @@ body {
   display: flex;
   background-color: #d5dbd6;
   align-items: flex-start;
-  padding-left: 40px;
-  padding-bottom: 25px;
+  /* padding-left: 40px; */
+  /* padding-bottom: 25px; */
 }
 .navBar a {
   border-style: solid;
